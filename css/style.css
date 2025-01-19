@@ -7287,4 +7287,24 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
 }
 
+.nav-item {
+  color: #00fd0f; !important;
+}
+
+.nav-item.active {
+  background-color: transparent !important;
+  color: #ffffff !important; /* change font color to white when active */
+  border-bottom: 2px solid #00fd0f !important;
+  font-size: 18px !important; /* change font size to 18px when active */
+}
+
+.active > .nav-link {
+  color: #f4853f !important; /* change font color to white */
+  font-size: 18px !important; /* change font size to 18px */
+}
+
+
+.nav-link.active {
+  color: #f4853f !important; /* change font color to white */
+}
 /*# sourceMappingURL=style.css.map */
