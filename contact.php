@@ -1,5 +1,14 @@
 <?php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Debug: Check if POST data is received
+    if (empty($_POST)) {
+        echo json_encode(["status" => "error", "message" => "No data received."]);
+        exit;
+    }
+
     // Get form data from the HTML form
     $name = trim($_POST['name']);
     $email = trim($_POST['email']);
@@ -27,6 +36,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $body .= "Interest: $interest\n";
     $body .= "Message:\n$message\n";
     $headers = "From: $email";
+
+    // Debug: Check the values
+    if (!$to || !$subject || !$body || !$headers) {
+        echo json_encode(["status" => "error", "message" => "Failed to prepare email."]);
+        exit;
+    }
 
     // Send email
     if (mail($to, $subject, $body, $headers)) {

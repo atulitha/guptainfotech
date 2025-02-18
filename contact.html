@@ -110,7 +110,7 @@
                 <div class="col-12">
                     <h2 class="contact-title">Get in Touch</h2>
                 </div>
- <div class="col-lg-8">
+<div class="col-lg-8">
     <form action="contact.php" method="POST" id="form" validate="validate">
         <div class="row">
             <div class="col-12">
@@ -168,6 +168,7 @@
         const message = document.getElementById("message").value.trim();
         const interest = document.querySelector('input[name="interest"]:checked');
 
+        // Validate the form data
         if (!name || !email || !phone || !message || !interest) {
             result.innerHTML = "Please fill out all fields!";
             result.classList.remove("text-gray-500");
@@ -175,28 +176,28 @@
             return;
         }
 
+        // Create a FormData object to send the form data as x-www-form-urlencoded
         const formData = new FormData(form);
-        const json = JSON.stringify(Object.fromEntries(formData.entries()));
 
-        fetch("contact.php", {  // Updated to point to contact.php
+        // Send the data using the fetch API
+        fetch("contact.php", {  // Use the correct PHP file for form submission
             method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                Accept: "application/json"
-            },
-            body: json
+            body: formData // We don't need to send the data as JSON in this case
         })
         .then(async (response) => {
-            const json = await response.json();
+            const json = await response.json(); // Expecting JSON response from PHP
             result.innerHTML = json.message;
             result.classList.remove("text-gray-500");
             result.classList.add(json.status === "success" ? "text-green-500" : "text-red-500");
         })
         .catch(() => {
             result.innerHTML = "Something went wrong!";
+            result.classList.remove("text-gray-500");
+            result.classList.add("text-red-500");
         });
     });
 </script>
+
 
 
 
