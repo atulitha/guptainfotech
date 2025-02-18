@@ -1,0 +1,134 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Text To Word</title></head><body><h3><strong>C Programming Course Catalog &ndash; 45 Days</strong></h3>
+<table style="width: 97.7249%;">
+<thead>
+<tr>
+<th style="width: 7.09454%;"><strong>Day</strong></th>
+<th style="width: 39.6216%;"><strong>Module</strong></th>
+<th style="width: 53.2839%;"><strong>Topics Covered</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="width: 7.09454%;"><strong>1-2</strong></td>
+<td style="width: 39.6216%;"><strong>Introduction to C Programming</strong></td>
+<td style="width: 53.2839%;">Overview of C, Setting up the Environment, First Program (Hello World)</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>3-4</strong></td>
+<td style="width: 39.6216%;"><strong>Variables &amp; Data Types</strong></td>
+<td style="width: 53.2839%;">Understanding Data Types (int, float, char, etc.), Declaring Variables, Constants</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>5-6</strong></td>
+<td style="width: 39.6216%;"><strong>Operators</strong></td>
+<td style="width: 53.2839%;">Arithmetic, Relational, Logical, Bitwise Operators, Operator Precedence</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>7-8</strong></td>
+<td style="width: 39.6216%;"><strong>Control Structures</strong></td>
+<td style="width: 53.2839%;">if, else, switch-case, and ternary operator</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>9-10</strong></td>
+<td style="width: 39.6216%;"><strong>Loops</strong></td>
+<td style="width: 53.2839%;">for, while, do-while loops, break &amp; continue statements</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>11-12</strong></td>
+<td style="width: 39.6216%;"><strong>Functions</strong></td>
+<td style="width: 53.2839%;">Function Declaration, Definition, Calling Functions, Function Arguments &amp; Return Types</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>13-14</strong></td>
+<td style="width: 39.6216%;"><strong>Arrays</strong></td>
+<td style="width: 53.2839%;">One-Dimensional Arrays, Multi-Dimensional Arrays, Array Operations</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>15-16</strong></td>
+<td style="width: 39.6216%;"><strong>Strings</strong></td>
+<td style="width: 53.2839%;">String Basics, String Functions (strlen, strcpy, strcat, strcmp)</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>17-18</strong></td>
+<td style="width: 39.6216%;"><strong>Pointers</strong></td>
+<td style="width: 53.2839%;">Introduction to Pointers, Pointer Arithmetic, Pointers with Arrays, Functions and Pointers</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>19-20</strong></td>
+<td style="width: 39.6216%;"><strong>Dynamic Memory Allocation</strong></td>
+<td style="width: 53.2839%;">malloc, calloc, realloc, free, Memory Leaks and Memory Management</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>21-22</strong></td>
+<td style="width: 39.6216%;"><strong>Structures</strong></td>
+<td style="width: 53.2839%;">Defining and Using Structures, Nested Structures, Pointers to Structures</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>23-24</strong></td>
+<td style="width: 39.6216%;"><strong>Unions</strong></td>
+<td style="width: 53.2839%;">Understanding Unions, Using Unions, Union vs Structures</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>25-26</strong></td>
+<td style="width: 39.6216%;"><strong>File Handling</strong></td>
+<td style="width: 53.2839%;">Reading/Writing Files, fopen, fclose, fseek, fprintf, fscanf</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>27-28</strong></td>
+<td style="width: 39.6216%;"><strong>Preprocessor Directives</strong></td>
+<td style="width: 53.2839%;">#define, #include, Macros, Conditional Compilation</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>29-30</strong></td>
+<td style="width: 39.6216%;"><strong>Error Handling</strong></td>
+<td style="width: 53.2839%;">Handling Errors, Using errno, try-catch concept (manual implementation)</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>31-32</strong></td>
+<td style="width: 39.6216%;"><strong>Recursion</strong></td>
+<td style="width: 53.2839%;">Understanding Recursion, Recursive Functions, Solving Problems Recursively</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>33-34</strong></td>
+<td style="width: 39.6216%;"><strong>Sorting &amp; Searching Algorithms</strong></td>
+<td style="width: 53.2839%;">Bubble Sort, Selection Sort, Insertion Sort, Linear Search, Binary Search</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>35-36</strong></td>
+<td style="width: 39.6216%;"><strong>Advanced Pointers &amp; Memory Management</strong></td>
+<td style="width: 53.2839%;">Function Pointers, Pointer to Pointer, Advanced Memory Handling Techniques</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>37-38</strong></td>
+<td style="width: 39.6216%;"><strong>Linked Lists</strong></td>
+<td style="width: 53.2839%;">Introduction to Linked Lists, Insertion, Deletion, Traversing Linked Lists</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>39-40</strong></td>
+<td style="width: 39.6216%;"><strong>Stacks &amp; Queues</strong></td>
+<td style="width: 53.2839%;">Stack Operations, Queue Operations, Implementing Stacks/Queues using Arrays/Linked Lists</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>41-42</strong></td>
+<td style="width: 39.6216%;"><strong>Multithreading Basics (Optional)</strong></td>
+<td style="width: 53.2839%;">Introduction to Threads, pthread Library, Synchronization Basics</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>43</strong></td>
+<td style="width: 39.6216%;"><strong>Project Work</strong></td>
+<td style="width: 53.2839%;">Hands-on Project (e.g., Mini Calculator, Student Database, etc.)</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>44</strong></td>
+<td style="width: 39.6216%;"><strong>Debugging &amp; Optimization</strong></td>
+<td style="width: 53.2839%;">Debugging Techniques, Using gdb, Optimizing Code for Efficiency</td>
+</tr>
+<tr>
+<td style="width: 7.09454%;"><strong>45</strong></td>
+<td style="width: 39.6216%;"><strong>Final Review &amp; Certification</strong></td>
+<td style="width: 53.2839%;">Final Exam, Review of Key Topics, Course Wrap-up &amp; Certification</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>&nbsp;</p></body></html>

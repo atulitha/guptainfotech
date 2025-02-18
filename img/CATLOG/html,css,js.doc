@@ -1,0 +1,198 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Text To Word</title></head><body><h3><strong>HTML, CSS, and JavaScript Course Catalog &ndash; 90 Days</strong></h3>
+<table style="width: 100%;">
+<thead>
+<tr>
+<th style="width: 7.76034%;"><strong>Day</strong></th>
+<th style="width: 34.0616%;"><strong>Module</strong></th>
+<th style="width: 58.1781%;"><strong>Topics Covered</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="width: 7.76034%;"><strong>1-2</strong></td>
+<td style="width: 34.0616%;"><strong>Introduction to Web Development</strong></td>
+<td style="width: 58.1781%;">Overview of Web Development, Understanding the Web, Introduction to HTML, CSS, and JavaScript</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>3-4</strong></td>
+<td style="width: 34.0616%;"><strong>HTML Basics</strong></td>
+<td style="width: 58.1781%;">HTML Structure, Elements, Tags, Attributes, Creating a Simple Web Page</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>5-6</strong></td>
+<td style="width: 34.0616%;"><strong>HTML Forms</strong></td>
+<td style="width: 58.1781%;">Form Elements, Input Fields, Buttons, Labels, Form Validation</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>7-8</strong></td>
+<td style="width: 34.0616%;"><strong>HTML Lists &amp; Tables</strong></td>
+<td style="width: 58.1781%;">Ordered &amp; Unordered Lists, Tables, Table Structure, Merging Cells</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>9-10</strong></td>
+<td style="width: 34.0616%;"><strong>HTML Multimedia</strong></td>
+<td style="width: 58.1781%;">Embedding Images, Audio, Video, Using iframe, Audio and Video Tags</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>11-13</strong></td>
+<td style="width: 34.0616%;"><strong>Introduction to CSS</strong></td>
+<td style="width: 58.1781%;">What is CSS, Syntax, CSS Selectors, Properties, Colors, Text Styling, and Fonts</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>14-15</strong></td>
+<td style="width: 34.0616%;"><strong>CSS Box Model</strong></td>
+<td style="width: 58.1781%;">Padding, Border, Margin, Box Sizing, Box Model Principles</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>16-17</strong></td>
+<td style="width: 34.0616%;"><strong>CSS Layouts</strong></td>
+<td style="width: 58.1781%;">Positioning (Static, Relative, Absolute, Fixed), Flexbox Basics, Grid Layout</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>18-19</strong></td>
+<td style="width: 34.0616%;"><strong>CSS Styling Techniques</strong></td>
+<td style="width: 58.1781%;">Backgrounds, Gradients, Shadows, Transparency, CSS Transitions</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>20-21</strong></td>
+<td style="width: 34.0616%;"><strong>Responsive Web Design</strong></td>
+<td style="width: 58.1781%;">Media Queries, Mobile-first Design, Viewport Meta Tag, Adaptive Layouts</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>22-23</strong></td>
+<td style="width: 34.0616%;"><strong>CSS Flexbox</strong></td>
+<td style="width: 58.1781%;">Flex Container, Flex Items, Aligning and Justifying Content, Flexbox Advanced Layouts</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>24-25</strong></td>
+<td style="width: 34.0616%;"><strong>CSS Grid</strong></td>
+<td style="width: 58.1781%;">Grid Containers, Grid Items, Defining Rows and Columns, Aligning Grid Items</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>26-27</strong></td>
+<td style="width: 34.0616%;"><strong>CSS Animations</strong></td>
+<td style="width: 58.1781%;">CSS Keyframes, Animation Properties, Transitions, Transformations</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>28-30</strong></td>
+<td style="width: 34.0616%;"><strong>Introduction to JavaScript</strong></td>
+<td style="width: 58.1781%;">What is JavaScript, Syntax, Variables, Data Types, Operators, Comments</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>31-32</strong></td>
+<td style="width: 34.0616%;"><strong>JavaScript Functions</strong></td>
+<td style="width: 58.1781%;">Declaring Functions, Function Arguments, Return Values, Function Scope</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>33-34</strong></td>
+<td style="width: 34.0616%;"><strong>JavaScript Control Structures</strong></td>
+<td style="width: 58.1781%;">if, else, switch-case, loops (for, while, do-while), Break &amp; Continue</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>35-37</strong></td>
+<td style="width: 34.0616%;"><strong>JavaScript Arrays &amp; Objects</strong></td>
+<td style="width: 58.1781%;">Creating Arrays, Array Methods, Objects in JavaScript, Working with JSON</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>38-40</strong></td>
+<td style="width: 34.0616%;"><strong>DOM Manipulation</strong></td>
+<td style="width: 58.1781%;">DOM Structure, Selecting Elements, Modifying HTML/CSS with JavaScript</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>41-42</strong></td>
+<td style="width: 34.0616%;"><strong>Event Handling</strong></td>
+<td style="width: 58.1781%;">Event Listeners, Mouse Events, Keyboard Events, Event Propagation</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>43-45</strong></td>
+<td style="width: 34.0616%;"><strong>JavaScript Error Handling</strong></td>
+<td style="width: 58.1781%;">try, catch, throw, Handling Errors in JavaScript</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>46-47</strong></td>
+<td style="width: 34.0616%;"><strong>Advanced JavaScript Functions</strong></td>
+<td style="width: 58.1781%;">Arrow Functions, Anonymous Functions, Callback Functions, Higher-order Functions</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>48-49</strong></td>
+<td style="width: 34.0616%;"><strong>JavaScript Object-Oriented Programming (OOP)</strong></td>
+<td style="width: 58.1781%;">Classes &amp; Objects, Constructors, Inheritance, Encapsulation, Polymorphism</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>50-51</strong></td>
+<td style="width: 34.0616%;"><strong>Asynchronous JavaScript</strong></td>
+<td style="width: 58.1781%;">Understanding Asynchronous JavaScript, Callbacks, Promises, async/await</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>52-54</strong></td>
+<td style="width: 34.0616%;"><strong>JavaScript DOM Events &amp; AJAX</strong></td>
+<td style="width: 58.1781%;">Handling Events, Using AJAX for Dynamic Content, Fetch API, JSON and API Integration</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>55-57</strong></td>
+<td style="width: 34.0616%;"><strong>CSS Preprocessors</strong></td>
+<td style="width: 58.1781%;">Introduction to SASS/SCSS, Variables, Nesting, Mixins, Functions</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>58-59</strong></td>
+<td style="width: 34.0616%;"><strong>Version Control with Git</strong></td>
+<td style="width: 58.1781%;">Introduction to Git, Git Commands (clone, commit, push, pull), GitHub Basics</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>60-62</strong></td>
+<td style="width: 34.0616%;"><strong>Introduction to Web Accessibility</strong></td>
+<td style="width: 58.1781%;">Accessibility Basics, WCAG Guidelines, ARIA Roles, Keyboard Navigation</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>63-65</strong></td>
+<td style="width: 34.0616%;"><strong>Web Performance Optimization</strong></td>
+<td style="width: 58.1781%;">Optimizing Images, Lazy Loading, Minification, CSS &amp; JavaScript Compression</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>66-68</strong></td>
+<td style="width: 34.0616%;"><strong>JavaScript Libraries</strong></td>
+<td style="width: 58.1781%;">Introduction to jQuery, Using jQuery for DOM Manipulation, Animations, AJAX</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>69-71</strong></td>
+<td style="width: 34.0616%;"><strong>Introduction to Web Development Frameworks</strong></td>
+<td style="width: 58.1781%;">Overview of Frontend Frameworks (React, Vue.js, Angular), Pros and Cons</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>72-74</strong></td>
+<td style="width: 34.0616%;"><strong>Introduction to Web APIs</strong></td>
+<td style="width: 58.1781%;">Working with Web APIs, Fetch API, Handling Data, Making API Requests</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>75-77</strong></td>
+<td style="width: 34.0616%;"><strong>Building a Simple Website with HTML, CSS &amp; JS</strong></td>
+<td style="width: 58.1781%;">Design a Multi-page Static Website, Implement Interactive Features with JavaScript</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>78-80</strong></td>
+<td style="width: 34.0616%;"><strong>Responsive Design with Media Queries</strong></td>
+<td style="width: 58.1781%;">Advanced Media Queries, Mobile-first Approach, Creating Fully Responsive Websites</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>81-83</strong></td>
+<td style="width: 34.0616%;"><strong>JavaScript Projects</strong></td>
+<td style="width: 58.1781%;">Build Dynamic Web Pages, Interactive Forms, Image Sliders, Real-time Features</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>84-86</strong></td>
+<td style="width: 34.0616%;"><strong>Creating a Personal Portfolio</strong></td>
+<td style="width: 58.1781%;">Designing a Portfolio Website, Showcasing Projects, Custom Animations</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>87-89</strong></td>
+<td style="width: 34.0616%;"><strong>Debugging &amp; Testing</strong></td>
+<td style="width: 58.1781%;">Debugging JavaScript with Browser DevTools, Unit Testing with Jest, Best Practices</td>
+</tr>
+<tr>
+<td style="width: 7.76034%;"><strong>90</strong></td>
+<td style="width: 34.0616%;"><strong>Final Project &amp; Certification</strong></td>
+<td style="width: 58.1781%;">Complete Final Project, Review Key Concepts, Present Final Project, Exam &amp; Certification</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p></body></html>

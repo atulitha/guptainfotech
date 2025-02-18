@@ -1,0 +1,98 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Text To Word</title></head><body><h3><strong>AutoCAD Course Catalog &ndash; 30 Days</strong></h3>
+<table style="width: 96.484%;">
+<thead>
+<tr>
+<th style="width: 7.0789%;"><strong>Day</strong></th>
+<th style="width: 31.7623%;"><strong>Module</strong></th>
+<th style="width: 61.1588%;"><strong>Topics Covered</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="width: 7.0789%;"><strong>1-2</strong></td>
+<td style="width: 31.7623%;"><strong>Introduction to AutoCAD</strong></td>
+<td style="width: 61.1588%;">Overview of AutoCAD, Interface Navigation, AutoCAD Workspace, Setting up a New Drawing</td>
+</tr>
+<tr>
+<td style="width: 7.0789%;"><strong>3-4</strong></td>
+<td style="width: 31.7623%;"><strong>Basic Drawing Tools</strong></td>
+<td style="width: 61.1588%;">Line, Polyline, Circle, Arc, Rectangle, Ellipse, and other basic drawing tools</td>
+</tr>
+<tr>
+<td style="width: 7.0789%;"><strong>5-6</strong></td>
+<td style="width: 31.7623%;"><strong>Coordinate Systems &amp; Grids</strong></td>
+<td style="width: 61.1588%;">Cartesian Coordinates, Polar Coordinates, Grid and Snap Settings, User Coordinate System (UCS)</td>
+</tr>
+<tr>
+<td style="width: 7.0789%;"><strong>7-8</strong></td>
+<td style="width: 31.7623%;"><strong>Drawing Precision</strong></td>
+<td style="width: 61.1588%;">Ortho Mode, Object Snap (OSNAP), Grid Snap, Polar Tracking, Using Direct Distance Entry</td>
+</tr>
+<tr>
+<td style="width: 7.0789%;"><strong>9-10</strong></td>
+<td style="width: 31.7623%;"><strong>Editing Tools</strong></td>
+<td style="width: 61.1588%;">Move, Copy, Rotate, Scale, Mirror, Stretch, Array, Offset, Fillet, Chamfer</td>
+</tr>
+<tr>
+<td style="width: 7.0789%;"><strong>11-12</strong></td>
+<td style="width: 31.7623%;"><strong>Layers &amp; Properties</strong></td>
+<td style="width: 61.1588%;">Creating &amp; Managing Layers, Layer Properties, Layer Control, Color, Linetype, Lineweight</td>
+</tr>
+<tr>
+<td style="width: 7.0789%;"><strong>13-14</strong></td>
+<td style="width: 31.7623%;"><strong>Text and Dimensions</strong></td>
+<td style="width: 61.1588%;">Adding Text (Single Line, Multiline), Text Styles, Dimensioning (Linear, Angular, Radius, Diameter)</td>
+</tr>
+<tr>
+<td style="width: 7.0789%;"><strong>15-16</strong></td>
+<td style="width: 31.7623%;"><strong>Blocks &amp; References</strong></td>
+<td style="width: 61.1588%;">Creating Blocks, Inserting Blocks, Block Attributes, External References (Xrefs)</td>
+</tr>
+<tr>
+<td style="width: 7.0789%;"><strong>17-18</strong></td>
+<td style="width: 31.7623%;"><strong>Advanced Editing Techniques</strong></td>
+<td style="width: 61.1588%;">Trim, Extend, Break, Join, Explode, Offset, and other advanced editing tools</td>
+</tr>
+<tr>
+<td style="width: 7.0789%;"><strong>19-20</strong></td>
+<td style="width: 31.7623%;"><strong>Hatching &amp; Gradients</strong></td>
+<td style="width: 61.1588%;">Creating Hatches, Hatch Patterns, Gradient Fills, Editing Hatch Properties</td>
+</tr>
+<tr>
+<td style="width: 7.0789%;"><strong>21-22</strong></td>
+<td style="width: 31.7623%;"><strong>3D Basics in AutoCAD</strong></td>
+<td style="width: 61.1588%;">Introduction to 3D, Creating 3D Models, 3D Views, 3D Coordinate System, 3D Solids</td>
+</tr>
+<tr>
+<td style="width: 7.0789%;"><strong>23-24</strong></td>
+<td style="width: 31.7623%;"><strong>3D Editing and Visualization</strong></td>
+<td style="width: 61.1588%;">Moving, Rotating, Scaling in 3D, 3D Object Editing Tools, 3D Viewports, Shading, and Rendering</td>
+</tr>
+<tr>
+<td style="width: 7.0789%;"><strong>25</strong></td>
+<td style="width: 31.7623%;"><strong>Creating &amp; Editing Polylines</strong></td>
+<td style="width: 61.1588%;">Polyline Editing, Spline Curves, Polyline vs Line, Editing Polyline Vertices</td>
+</tr>
+<tr>
+<td style="width: 7.0789%;"><strong>26-27</strong></td>
+<td style="width: 31.7623%;"><strong>Blocks &amp; Dynamic Blocks</strong></td>
+<td style="width: 61.1588%;">Advanced Block Creation, Dynamic Blocks, Parameters &amp; Actions, Block References</td>
+</tr>
+<tr>
+<td style="width: 7.0789%;"><strong>28</strong></td>
+<td style="width: 31.7623%;"><strong>Annotative Objects</strong></td>
+<td style="width: 61.1588%;">Annotative Scaling, Setting Annotation Scale, Annotating Drawings for Multiple Scales</td>
+</tr>
+<tr>
+<td style="width: 7.0789%;"><strong>29</strong></td>
+<td style="width: 31.7623%;"><strong>Printing &amp; Plotting</strong></td>
+<td style="width: 61.1588%;">Page Setup, Plot Styles, Printing to PDF, Plotting to Scale, Plotter Configuration</td>
+</tr>
+<tr>
+<td style="width: 7.0789%;"><strong>30</strong></td>
+<td style="width: 31.7623%;"><strong>Final Project &amp; Certification</strong></td>
+<td style="width: 61.1588%;">Hands-on Drawing Project, Review of Key Concepts, Final Exam &amp; Certification</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p></body></html>

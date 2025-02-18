@@ -1,0 +1,163 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Text To Word</title></head><body><h3><strong>Azure Data Engineer Course Catalog &ndash; 90 Days</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Day</strong></th>
+<th><strong>Module</strong></th>
+<th><strong>Topics Covered</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1-3</strong></td>
+<td><strong>Introduction to Azure</strong></td>
+<td>Overview of Cloud Computing, Introduction to Microsoft Azure, Azure Architecture, Azure Services Overview, Azure Portal Navigation</td>
+</tr>
+<tr>
+<td><strong>4-6</strong></td>
+<td><strong>Azure Storage Fundamentals</strong></td>
+<td>Introduction to Azure Storage, Blob Storage, Azure Files, Azure Data Lake, Storage Account Types, Managing Azure Storage with PowerShell and CLI</td>
+</tr>
+<tr>
+<td><strong>7-9</strong></td>
+<td><strong>Azure Storage Security</strong></td>
+<td>Azure Storage Security Models, Shared Access Signatures (SAS), Encryption in Azure Storage, Azure Active Directory Authentication, Managing Storage Permissions</td>
+</tr>
+<tr>
+<td><strong>10-12</strong></td>
+<td><strong>Azure SQL Database</strong></td>
+<td>Introduction to Azure SQL Database, Creating and Configuring Databases, SQL Server Management Studio (SSMS) for Azure, Backup and Restore Operations, Data Migration to Azure SQL</td>
+</tr>
+<tr>
+<td><strong>13-15</strong></td>
+<td><strong>Azure Data Factory</strong></td>
+<td>Introduction to Data Integration, Data Factory Overview, Building Data Pipelines, Data Flow, Monitoring Data Pipelines, Triggering and Scheduling Pipelines</td>
+</tr>
+<tr>
+<td><strong>16-18</strong></td>
+<td><strong>Data Ingestion and Data Lakes</strong></td>
+<td>Ingesting Data into Azure Data Lake, Managing Files in Azure Data Lake, Azure Data Factory and Data Lake Integration, Data Transformation in Data Lake</td>
+</tr>
+<tr>
+<td><strong>19-21</strong></td>
+<td><strong>Azure Databricks</strong></td>
+<td>Introduction to Azure Databricks, Setting up Databricks Workspace, Spark Architecture, Data Processing with Spark, DataFrame Operations, MLlib Overview</td>
+</tr>
+<tr>
+<td><strong>22-24</strong></td>
+<td><strong>Data Transformation and ETL</strong></td>
+<td>ETL Concepts, Azure Data Factory for ETL, Data Transformation with Databricks, Data Wrangling, Data Cleansing Techniques</td>
+</tr>
+<tr>
+<td><strong>25-27</strong></td>
+<td><strong>Azure Synapse Analytics</strong></td>
+<td>Introduction to Azure Synapse Analytics, Data Warehousing Concepts, SQL Pools, Dedicated vs. Serverless Pools, Integrating Synapse with Power BI, Apache Spark in Synapse</td>
+</tr>
+<tr>
+<td><strong>28-30</strong></td>
+<td><strong>Azure HDInsight</strong></td>
+<td>Introduction to HDInsight, HDInsight Overview, Setting Up Hadoop Cluster, Managing Hadoop on Azure, Using Apache Spark in HDInsight, Data Processing with HDInsight</td>
+</tr>
+<tr>
+<td><strong>31-33</strong></td>
+<td><strong>Azure Cosmos DB</strong></td>
+<td>Introduction to NoSQL Databases, Overview of Cosmos DB, Configuring Cosmos DB, Querying Cosmos DB, Integration with Azure Functions, Data Security and Backup in Cosmos DB</td>
+</tr>
+<tr>
+<td><strong>34-36</strong></td>
+<td><strong>Azure Stream Analytics</strong></td>
+<td>Introduction to Real-Time Data Streaming, Stream Analytics Overview, Stream Analytics Jobs, Input and Output Streams, Real-Time Analytics on Azure</td>
+</tr>
+<tr>
+<td><strong>37-39</strong></td>
+<td><strong>Power BI for Data Engineers</strong></td>
+<td>Power BI Overview, Power BI Service vs. Desktop, Data Modeling in Power BI, Data Import and Transformation, Creating Dashboards and Reports</td>
+</tr>
+<tr>
+<td><strong>40-42</strong></td>
+<td><strong>Data Security and Compliance</strong></td>
+<td>Data Security in Azure, Role-Based Access Control (RBAC), Encryption Techniques, Data Governance, Security Policies in Azure Data Services</td>
+</tr>
+<tr>
+<td><strong>43-45</strong></td>
+<td><strong>Azure Data Migration</strong></td>
+<td>Introduction to Data Migration, Tools for Data Migration to Azure, Using Azure Database Migration Service, Data Migration Strategies, Migrating to Azure SQL Database</td>
+</tr>
+<tr>
+<td><strong>46-48</strong></td>
+<td><strong>Azure Logic Apps</strong></td>
+<td>Introduction to Logic Apps, Workflow Automation, Integrating Azure Logic Apps with Services (SQL, Blob Storage, Office 365), Triggers and Actions in Logic Apps</td>
+</tr>
+<tr>
+<td><strong>49-51</strong></td>
+<td><strong>Azure Automation</strong></td>
+<td>Introduction to Azure Automation, Automating Resource Management, PowerShell Automation, Runbooks, Managing Configurations with Azure Automation</td>
+</tr>
+<tr>
+<td><strong>52-54</strong></td>
+<td><strong>Azure Machine Learning</strong></td>
+<td>Overview of Azure Machine Learning, Setting up Machine Learning Workspace, Building and Training Models, Hyperparameter Tuning, Deploying Models in Azure</td>
+</tr>
+<tr>
+<td><strong>55-57</strong></td>
+<td><strong>Advanced Azure Data Factory</strong></td>
+<td>Advanced Data Factory Concepts, Managing Large Datasets, Data Factory Security, Linked Services and Datasets, Complex Data Pipelines</td>
+</tr>
+<tr>
+<td><strong>58-60</strong></td>
+<td><strong>Azure Data Bricks Advanced</strong></td>
+<td>Advanced Data Processing with Azure Databricks, Apache Spark Advanced Topics, Streaming Data with Databricks, ML with Databricks, Performance Optimization</td>
+</tr>
+<tr>
+<td><strong>61-63</strong></td>
+<td><strong>Real-Time Data Processing with Azure Stream Analytics</strong></td>
+<td>Advanced Stream Analytics, Working with Multiple Streams, Azure Functions for Stream Analytics, Data Monitoring and Alerts, Handling Streaming Data Errors</td>
+</tr>
+<tr>
+<td><strong>64-66</strong></td>
+<td><strong>Data Governance and Compliance on Azure</strong></td>
+<td>Implementing Data Governance in Azure, Data Retention Policies, Azure Data Catalog, Managing Data Compliance in Azure, Azure Purview Overview</td>
+</tr>
+<tr>
+<td><strong>67-69</strong></td>
+<td><strong>Data Orchestration with Azure Data Factory</strong></td>
+<td>Orchestrating Complex Workflows, Azure Data Factory Pipelines for Big Data, Custom Activities in Pipelines, Monitoring and Logging in Data Factory</td>
+</tr>
+<tr>
+<td><strong>70-72</strong></td>
+<td><strong>Data Visualizations and Reporting</strong></td>
+<td>Visualizing Data with Power BI, DAX for Data Modeling, Power BI Advanced Features, Integrating Azure Synapse with Power BI, Real-time Dashboards in Power BI</td>
+</tr>
+<tr>
+<td><strong>73-75</strong></td>
+<td><strong>Designing and Implementing Data Solutions in Azure</strong></td>
+<td>Best Practices for Data Solutions on Azure, Designing Scalable Data Architecture, Choosing the Right Storage Option, Cost Management in Azure Data Solutions</td>
+</tr>
+<tr>
+<td><strong>76-78</strong></td>
+<td><strong>Advanced Analytics with Azure Synapse</strong></td>
+<td>Data Analytics using Synapse Studio, Integrating Synapse with Power BI, Advanced Querying in Synapse, Data Lake Analytics, Performance Tuning in Synapse</td>
+</tr>
+<tr>
+<td><strong>79-81</strong></td>
+<td><strong>Data Engineering with Azure Machine Learning</strong></td>
+<td>Implementing Data Pipelines in Azure ML, Preprocessing Data for Machine Learning, Data Exploration in Azure ML, Training ML Models, Model Deployment</td>
+</tr>
+<tr>
+<td><strong>82-84</strong></td>
+<td><strong>Azure Data Services Integration</strong></td>
+<td>Integrating Azure Data Services with Azure SQL, Azure Databricks, Cosmos DB, Synapse Analytics, Data Lakes, Power BI, and Stream Analytics</td>
+</tr>
+<tr>
+<td><strong>85-87</strong></td>
+<td><strong>End-to-End Data Engineering Solutions</strong></td>
+<td>Designing End-to-End Data Solutions, Data Integration from Multiple Sources, Optimizing Data Pipelines, Azure Data Solutions for Big Data and Real-Time Analytics</td>
+</tr>
+<tr>
+<td><strong>88-90</strong></td>
+<td><strong>Capstone Project &amp; Final Exam</strong></td>
+<td>Final Project (Building an End-to-End Data Engineering Solution on Azure), Review of Key Concepts, Final Exam, Certification of Completion</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p></body></html>

@@ -1,0 +1,168 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Text To Word</title></head><body><h3><strong>Machine Learning with Python Course Catalog &ndash; 90 Days</strong></h3>
+<table style="width: 100%;">
+<thead>
+<tr>
+<th style="width: 8.07057%;"><strong>Day</strong></th>
+<th style="width: 33.2338%;"><strong>Module</strong></th>
+<th style="width: 58.6957%;"><strong>Topics Covered</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="width: 8.07057%;"><strong>1-3</strong></td>
+<td style="width: 33.2338%;"><strong>Introduction to Machine Learning</strong></td>
+<td style="width: 58.6957%;">Overview of Machine Learning, Types of Machine Learning (Supervised, Unsupervised, Reinforcement Learning), Key Libraries (NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow)</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>4-6</strong></td>
+<td style="width: 33.2338%;"><strong>Python for Machine Learning</strong></td>
+<td style="width: 58.6957%;">Python Basics for ML, Numpy Arrays, Pandas DataFrame, Data Cleaning and Preprocessing, Visualizing Data with Matplotlib and Seaborn</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>7-9</strong></td>
+<td style="width: 33.2338%;"><strong>Data Preprocessing</strong></td>
+<td style="width: 58.6957%;">Handling Missing Values, Feature Scaling (Normalization, Standardization), Encoding Categorical Data, Train-Test Split</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>10-12</strong></td>
+<td style="width: 33.2338%;"><strong>Supervised Learning - Regression</strong></td>
+<td style="width: 58.6957%;">Introduction to Linear Regression, Simple and Multiple Linear Regression, Polynomial Regression, Evaluating Regression Models (MSE, RMSE, R-Squared)</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>13-15</strong></td>
+<td style="width: 33.2338%;"><strong>Supervised Learning - Classification</strong></td>
+<td style="width: 58.6957%;">Introduction to Classification, Logistic Regression, K-Nearest Neighbors (KNN), Naive Bayes, Support Vector Machines (SVM), Evaluating Classification Models (Accuracy, Precision, Recall, F1-Score)</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>16-18</strong></td>
+<td style="width: 33.2338%;"><strong>Model Evaluation and Validation</strong></td>
+<td style="width: 58.6957%;">Cross-Validation, Bias-Variance Tradeoff, Overfitting and Underfitting, Hyperparameter Tuning, Grid Search and Random Search</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>19-21</strong></td>
+<td style="width: 33.2338%;"><strong>Unsupervised Learning - Clustering</strong></td>
+<td style="width: 58.6957%;">K-Means Clustering, Hierarchical Clustering, DBSCAN, Evaluation of Clustering Algorithms (Silhouette Score, Elbow Method)</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>22-24</strong></td>
+<td style="width: 33.2338%;"><strong>Unsupervised Learning - Dimensionality Reduction</strong></td>
+<td style="width: 58.6957%;">Principal Component Analysis (PCA), t-SNE, Feature Selection, Curse of Dimensionality</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>25-27</strong></td>
+<td style="width: 33.2338%;"><strong>Ensemble Learning</strong></td>
+<td style="width: 58.6957%;">Introduction to Ensemble Methods, Bagging, Random Forests, Boosting, AdaBoost, Gradient Boosting, XGBoost</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>28-30</strong></td>
+<td style="width: 33.2338%;"><strong>Neural Networks Basics</strong></td>
+<td style="width: 58.6957%;">Introduction to Neural Networks, Perceptron Model, Feedforward Neural Networks, Activation Functions, Backpropagation</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>31-33</strong></td>
+<td style="width: 33.2338%;"><strong>Deep Learning - Introduction</strong></td>
+<td style="width: 58.6957%;">Deep Learning Overview, Deep Neural Networks (DNN), TensorFlow Basics, Keras Introduction, Building a Basic Neural Network Model</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>34-36</strong></td>
+<td style="width: 33.2338%;"><strong>Convolutional Neural Networks (CNN)</strong></td>
+<td style="width: 58.6957%;">Introduction to CNNs, Convolution Layers, Pooling Layers, Flattening, Fully Connected Layers, CNN Architecture, CNN for Image Classification</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>37-39</strong></td>
+<td style="width: 33.2338%;"><strong>Recurrent Neural Networks (RNN)</strong></td>
+<td style="width: 58.6957%;">Introduction to RNNs, Sequence Data, Long Short-Term Memory (LSTM), Gated Recurrent Unit (GRU), Applications of RNNs</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>40-42</strong></td>
+<td style="width: 33.2338%;"><strong>Natural Language Processing (NLP)</strong></td>
+<td style="width: 58.6957%;">Introduction to NLP, Text Preprocessing (Tokenization, Lemmatization, Stop Words Removal), Bag of Words, TF-IDF, Word Embeddings (Word2Vec, GloVe)</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>43-45</strong></td>
+<td style="width: 33.2338%;"><strong>Text Classification with Machine Learning</strong></td>
+<td style="width: 58.6957%;">Sentiment Analysis, Text Classification with Naive Bayes, Logistic Regression, and SVM, Feature Extraction Techniques</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>46-48</strong></td>
+<td style="width: 33.2338%;"><strong>Introduction to Time Series Analysis</strong></td>
+<td style="width: 58.6957%;">Time Series Data, Time Series Forecasting, ARIMA Model, Seasonal Decomposition, Evaluation Metrics for Time Series Models</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>49-51</strong></td>
+<td style="width: 33.2338%;"><strong>Introduction to Reinforcement Learning</strong></td>
+<td style="width: 58.6957%;">Reinforcement Learning Overview, Markov Decision Processes, Q-Learning, Exploration vs Exploitation, Applications of Reinforcement Learning</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>52-54</strong></td>
+<td style="width: 33.2338%;"><strong>Model Deployment - Introduction</strong></td>
+<td style="width: 58.6957%;">Model Deployment Overview, Saving and Loading Models, Flask for Model Deployment, Introduction to Docker for ML Models</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>55-57</strong></td>
+<td style="width: 33.2338%;"><strong>Model Deployment with Flask</strong></td>
+<td style="width: 58.6957%;">Building a Web Application with Flask, Integrating ML Models into Flask, Handling User Input, Displaying Predictions</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>58-60</strong></td>
+<td style="width: 33.2338%;"><strong>Model Deployment with Docker</strong></td>
+<td style="width: 58.6957%;">Introduction to Docker, Dockerizing ML Models, Creating Docker Containers for Python ML Applications, Docker Compose</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>61-63</strong></td>
+<td style="width: 33.2338%;"><strong>Hyperparameter Tuning and Model Optimization</strong></td>
+<td style="width: 58.6957%;">Grid Search, Random Search, Bayesian Optimization, Feature Engineering, Feature Importance</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>64-66</strong></td>
+<td style="width: 33.2338%;"><strong>Advanced Techniques in Machine Learning</strong></td>
+<td style="width: 58.6957%;">Support Vector Regression (SVR), KNN Regressor, Decision Trees for Regression, Feature Selection and Importance</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>67-69</strong></td>
+<td style="width: 33.2338%;"><strong>Advanced Neural Networks</strong></td>
+<td style="width: 58.6957%;">Autoencoders, Generative Adversarial Networks (GANs), Deep Reinforcement Learning, Advanced Neural Network Architectures</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>70-72</strong></td>
+<td style="width: 33.2338%;"><strong>Transfer Learning</strong></td>
+<td style="width: 58.6957%;">Overview of Transfer Learning, Using Pre-trained Models, Fine-tuning Models for Specific Tasks, Applications of Transfer Learning</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>73-75</strong></td>
+<td style="width: 33.2338%;"><strong>Anomaly Detection</strong></td>
+<td style="width: 58.6957%;">Introduction to Anomaly Detection, Techniques for Anomaly Detection, Isolation Forest, One-Class SVM</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>76-78</strong></td>
+<td style="width: 33.2338%;"><strong>Model Explainability and Interpretability</strong></td>
+<td style="width: 58.6957%;">LIME, SHAP, Feature Importance, Explainable AI (XAI), Interpreting Complex Models</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>79-81</strong></td>
+<td style="width: 33.2338%;"><strong>Model Evaluation Techniques</strong></td>
+<td style="width: 58.6957%;">ROC Curve, Precision-Recall Curve, AUC Score, Cross-Validation Methods, Model Comparison Techniques</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>82-84</strong></td>
+<td style="width: 33.2338%;"><strong>Deployment to Cloud (AWS, GCP, Azure)</strong></td>
+<td style="width: 58.6957%;">Introduction to Cloud Computing, Cloud Platforms Overview, Deploying Models on AWS/GCP/Azure, Using Cloud Machine Learning APIs</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>85-87</strong></td>
+<td style="width: 33.2338%;"><strong>Advanced Data Engineering</strong></td>
+<td style="width: 58.6957%;">Data Pipelines, ETL Process, Data Integration, Big Data Tools (Apache Spark), Working with Large Datasets</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>88-89</strong></td>
+<td style="width: 33.2338%;"><strong>Capstone Project - End-to-End Solution</strong></td>
+<td style="width: 58.6957%;">Building an End-to-End ML Solution, Data Collection, Data Preprocessing, Model Training, Evaluation, Deployment</td>
+</tr>
+<tr>
+<td style="width: 8.07057%;"><strong>90</strong></td>
+<td style="width: 33.2338%;"><strong>Final Project &amp; Certification</strong></td>
+<td style="width: 58.6957%;">Final Hands-on Project Presentation, Review of Key Concepts, Final Exam, Certification of Completion</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p></body></html>

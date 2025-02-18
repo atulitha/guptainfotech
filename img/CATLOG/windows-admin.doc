@@ -1,0 +1,168 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Text To Word</title></head><body><h3><strong>Windows Administrator Course Catalog &ndash; 90 Days</strong></h3>
+<table style="width: 100%;">
+<thead>
+<tr>
+<th style="width: 5.58867%;"><strong>Day</strong></th>
+<th style="width: 39.0283%;"><strong>Module</strong></th>
+<th style="width: 55.383%;"><strong>Topics Covered</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="width: 5.58867%;"><strong>1-3</strong></td>
+<td style="width: 39.0283%;"><strong>Introduction to Windows Server</strong></td>
+<td style="width: 55.383%;">Overview of Windows Server Editions, Installation of Windows Server, Windows Server Roles and Features, Windows Server Architecture</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>4-6</strong></td>
+<td style="width: 39.0283%;"><strong>Active Directory Basics</strong></td>
+<td style="width: 55.383%;">Introduction to Active Directory, AD DS (Domain Services), Domain Controller, Organizational Units (OUs), Active Directory Users and Computers</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>7-9</strong></td>
+<td style="width: 39.0283%;"><strong>Managing Active Directory</strong></td>
+<td style="width: 55.383%;">Creating and Managing AD Users, Groups, Organizational Units, Managing AD Permissions, Active Directory Sites and Services</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>10-12</strong></td>
+<td style="width: 39.0283%;"><strong>Group Policy</strong></td>
+<td style="width: 55.383%;">Introduction to Group Policy, Creating and Managing GPOs, Group Policy Objects, Group Policy Management Console, Security Settings</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>13-15</strong></td>
+<td style="width: 39.0283%;"><strong>DNS Configuration</strong></td>
+<td style="width: 55.383%;">Understanding DNS, DNS Zones, Forward Lookup Zones, Reverse Lookup Zones, DNS Records, Configuring DNS Server in Windows Server</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>16-18</strong></td>
+<td style="width: 39.0283%;"><strong>DHCP Server Configuration</strong></td>
+<td style="width: 55.383%;">Introduction to DHCP, DHCP Scopes, Reservations, Exclusions, IP Address Leasing, Configuring DHCP Server</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>19-21</strong></td>
+<td style="width: 39.0283%;"><strong>File and Print Services</strong></td>
+<td style="width: 55.383%;">Configuring File Shares, NTFS Permissions, Sharing Printers, Printer Pooling, Print Server Management, Access Control Lists (ACLs)</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>22-24</strong></td>
+<td style="width: 39.0283%;"><strong>Windows Server Security</strong></td>
+<td style="width: 55.383%;">Windows Server Security Best Practices, Configuring Windows Firewall, User Account Control (UAC), Security Updates and Patching, Event Logs and Auditing</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>25-27</strong></td>
+<td style="width: 39.0283%;"><strong>Windows Server Backup and Recovery</strong></td>
+<td style="width: 55.383%;">Backup Strategies, Using Windows Server Backup, Restoring Files and Folders, Bare Metal Recovery, System State Backup</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>28-30</strong></td>
+<td style="width: 39.0283%;"><strong>Remote Desktop Services (RDS)</strong></td>
+<td style="width: 55.383%;">Introduction to RDS, Installing RDS Role, Configuring Remote Desktop Licensing, Creating Remote Desktop Sessions</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>31-33</strong></td>
+<td style="width: 39.0283%;"><strong>Windows Server Networking</strong></td>
+<td style="width: 55.383%;">Configuring IPv4 and IPv6, Routing and Remote Access, Static vs. Dynamic Routing, VPN, Network Policies and Access Services</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>34-36</strong></td>
+<td style="width: 39.0283%;"><strong>Windows Server Storage</strong></td>
+<td style="width: 55.383%;">Managing Storage Spaces, Configuring and Managing Volumes, File Systems, Disk Quotas, Configuring SAN and iSCSI</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>37-39</strong></td>
+<td style="width: 39.0283%;"><strong>Active Directory Certificate Services (AD CS)</strong></td>
+<td style="width: 55.383%;">Introduction to AD CS, Installing Certification Authority, Managing Certificates, Certificate Templates, PKI Basics</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>40-42</strong></td>
+<td style="width: 39.0283%;"><strong>Windows Server Update Services (WSUS)</strong></td>
+<td style="width: 55.383%;">Configuring WSUS, Synchronizing Updates, Deploying Updates to Clients, Troubleshooting WSUS</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>43-45</strong></td>
+<td style="width: 39.0283%;"><strong>Windows Server Performance Monitoring and Optimization</strong></td>
+<td style="width: 55.383%;">Performance Monitoring Tools, Performance Logs, Optimizing Server Performance, Troubleshooting Performance Issues, Using Task Manager and Resource Monitor</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>46-48</strong></td>
+<td style="width: 39.0283%;"><strong>Managing Users and Groups with PowerShell</strong></td>
+<td style="width: 55.383%;">Introduction to PowerShell, Basic PowerShell Commands, Automating User and Group Management, PowerShell Scripting for Admins</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>49-51</strong></td>
+<td style="width: 39.0283%;"><strong>Managing Windows Server Roles</strong></td>
+<td style="width: 55.383%;">Installing and Configuring Roles (Web Server, File Server, DHCP, DNS), Managing and Troubleshooting Roles</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>52-54</strong></td>
+<td style="width: 39.0283%;"><strong>Windows Server Virtualization</strong></td>
+<td style="width: 55.383%;">Introduction to Hyper-V, Installing and Configuring Hyper-V, Creating Virtual Machines, Virtual Networking, Live Migration</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>55-57</strong></td>
+<td style="width: 39.0283%;"><strong>Windows Server for Cloud Integration</strong></td>
+<td style="width: 55.383%;">Integrating Windows Server with Microsoft Azure, Hybrid Cloud Concepts, Managing Hybrid Environments, Azure AD Sync</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>58-60</strong></td>
+<td style="width: 39.0283%;"><strong>Windows Server Troubleshooting</strong></td>
+<td style="width: 55.383%;">Common Windows Server Issues, Using Event Viewer for Troubleshooting, PowerShell for Troubleshooting, Troubleshooting Network and Connectivity Issues</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>61-63</strong></td>
+<td style="width: 39.0283%;"><strong>Windows Server Clustering</strong></td>
+<td style="width: 55.383%;">Introduction to Windows Server Clustering, Configuring Failover Cluster, Cluster Nodes, Cluster Shared Volumes (CSV), Cluster Management</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>64-66</strong></td>
+<td style="width: 39.0283%;"><strong>Windows Server Disaster Recovery Planning</strong></td>
+<td style="width: 55.383%;">Disaster Recovery Planning, Backup and Restore Plans, Windows Server Restore Options, High Availability (HA) and Fault Tolerance</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>67-69</strong></td>
+<td style="width: 39.0283%;"><strong>Windows Server Security Auditing and Logging</strong></td>
+<td style="width: 55.383%;">Auditing Security Events, Using Event Viewer, Log Management, Security Auditing Best Practices</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>70-72</strong></td>
+<td style="width: 39.0283%;"><strong>Windows Server Active Directory Federation Services (ADFS)</strong></td>
+<td style="width: 55.383%;">Introduction to ADFS, Installing ADFS, Configuring Federation Trusts, Single Sign-On (SSO), ADFS Security and Authentication</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>73-75</strong></td>
+<td style="width: 39.0283%;"><strong>Windows Server Certificate Management</strong></td>
+<td style="width: 55.383%;">Certificate Authorities, Installing and Configuring Certificates, Certificate Revocation, SSL Certificates, Configuring SSL for Websites</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>76-78</strong></td>
+<td style="width: 39.0283%;"><strong>Windows Server Networking and Internet Services</strong></td>
+<td style="width: 55.383%;">Configuring Remote Access and VPN, Configuring NAT, Managing IP Addressing, Configuring DirectAccess</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>79-81</strong></td>
+<td style="width: 39.0283%;"><strong>Managing Windows Server Logon and Access Control</strong></td>
+<td style="width: 55.383%;">Configuring Logon Policies, Account Lockout Policies, Logon Scripts, Kerberos Authentication, Managing Access Control Lists (ACLs)</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>82-84</strong></td>
+<td style="width: 39.0283%;"><strong>Windows Server for Automation</strong></td>
+<td style="width: 55.383%;">Using Desired State Configuration (DSC), Managing Automation with PowerShell, Scheduling Tasks, Automating Windows Server Tasks</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>85-87</strong></td>
+<td style="width: 39.0283%;"><strong>Windows Server Advanced Security</strong></td>
+<td style="width: 55.383%;">Implementing BitLocker, Configuring Windows Defender, Advanced Threat Protection, Security Baseline Configuration, Security Auditing</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>88-89</strong></td>
+<td style="width: 39.0283%;"><strong>Windows Server Advanced Troubleshooting</strong></td>
+<td style="width: 55.383%;">Advanced Diagnostic Tools, Event Logs, Network Monitoring, Disk Analysis, System Repair Tools</td>
+</tr>
+<tr>
+<td style="width: 5.58867%;"><strong>90</strong></td>
+<td style="width: 39.0283%;"><strong>Final Project &amp; Certification</strong></td>
+<td style="width: 55.383%;">Final Hands-on Project (Comprehensive Windows Server Solution), Review of Key Concepts, Final Exam &amp; Certification</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p></body></html>

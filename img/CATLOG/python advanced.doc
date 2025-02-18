@@ -1,0 +1,168 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Text To Word</title></head><body><h3><strong>Advanced Python Course Catalog &ndash; 90 Days</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Day</strong></th>
+<th><strong>Module</strong></th>
+<th><strong>Topics Covered</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1-3</strong></td>
+<td><strong>Review of Python Basics</strong></td>
+<td>Recap of Python Syntax, Data Types, Variables, Loops, Functions, Control Flow, List Comprehensions</td>
+</tr>
+<tr>
+<td><strong>4-6</strong></td>
+<td><strong>Advanced Data Structures</strong></td>
+<td>Sets, Dictionaries, Tuples, Named Tuples, Defaultdict, OrderedDict, Heapq</td>
+</tr>
+<tr>
+<td><strong>7-9</strong></td>
+<td><strong>Object-Oriented Programming (OOP)</strong></td>
+<td>Classes and Objects, Inheritance, Polymorphism, Encapsulation, Abstract Classes, Magic Methods</td>
+</tr>
+<tr>
+<td><strong>10-12</strong></td>
+<td><strong>Advanced Functions</strong></td>
+<td>Lambda Functions, Closures, Decorators, Higher-Order Functions, Generators, Yield Statement</td>
+</tr>
+<tr>
+<td><strong>13-15</strong></td>
+<td><strong>Working with Files</strong></td>
+<td>File Handling (Reading, Writing, Appending), CSV Files, JSON, XML Parsing, File Compression (gzip, zip)</td>
+</tr>
+<tr>
+<td><strong>16-18</strong></td>
+<td><strong>Error Handling &amp; Exceptions</strong></td>
+<td>try, except, finally, Custom Exceptions, Exception Hierarchy, Logging, Debugging</td>
+</tr>
+<tr>
+<td><strong>19-21</strong></td>
+<td><strong>Iterators and Iterables</strong></td>
+<td>Iterators, Iterable Objects, Generator Expressions, Itertools Module</td>
+</tr>
+<tr>
+<td><strong>22-24</strong></td>
+<td><strong>Context Managers</strong></td>
+<td>Using <code>with</code> statement, Creating Custom Context Managers, Managing Resources Efficiently</td>
+</tr>
+<tr>
+<td><strong>25-27</strong></td>
+<td><strong>Regular Expressions (Regex)</strong></td>
+<td>Introduction to Regex, Pattern Matching, Substitutions, Flags, Regex Syntax and Functions</td>
+</tr>
+<tr>
+<td><strong>28-30</strong></td>
+<td><strong>Multithreading and Multiprocessing</strong></td>
+<td>Threading Basics, Thread Synchronization, Multiprocessing, Managing Processes, Queue Handling</td>
+</tr>
+<tr>
+<td><strong>31-33</strong></td>
+<td><strong>Asyncio and Asynchronous Programming</strong></td>
+<td>Understanding Asynchronous Programming, <code>asyncio</code> Module, Event Loop, Coroutines, Futures, Await</td>
+</tr>
+<tr>
+<td><strong>34-36</strong></td>
+<td><strong>Python Networking</strong></td>
+<td>Sockets, Client-Server Architecture, Networking Libraries (socket, urllib, requests), HTTP Requests</td>
+</tr>
+<tr>
+<td><strong>37-39</strong></td>
+<td><strong>Working with Databases</strong></td>
+<td>SQLite, SQLAlchemy, ORM, Database Queries, Transactions, Database Connections</td>
+</tr>
+<tr>
+<td><strong>40-42</strong></td>
+<td><strong>Web Scraping</strong></td>
+<td>BeautifulSoup, Scrapy, Web Crawling, Data Extraction, Handling HTTP Requests, Handling CAPTCHAs</td>
+</tr>
+<tr>
+<td><strong>43-45</strong></td>
+<td><strong>GUI Programming</strong></td>
+<td>Tkinter, PyQt, Creating GUI Applications, Event Handling, Widgets, Layouts, Working with Images and Files</td>
+</tr>
+<tr>
+<td><strong>46-48</strong></td>
+<td><strong>Testing &amp; Unit Testing</strong></td>
+<td>Unit Testing with <code>unittest</code>, Mocking, Assertions, Test-Driven Development (TDD), PyTest</td>
+</tr>
+<tr>
+<td><strong>49-51</strong></td>
+<td><strong>Python Design Patterns</strong></td>
+<td>Creational, Structural, Behavioral Patterns, Singleton, Factory, Strategy, Observer</td>
+</tr>
+<tr>
+<td><strong>52-54</strong></td>
+<td><strong>Python Performance Optimization</strong></td>
+<td>Profiling with <code>cProfile</code>, Memory Profiling, Code Optimization, Using Cython, JIT Compilation</td>
+</tr>
+<tr>
+<td><strong>55-57</strong></td>
+<td><strong>Metaprogramming</strong></td>
+<td>Introduction to Metaprogramming, Dynamic Class Creation, Modifying Functions/Classes at Runtime</td>
+</tr>
+<tr>
+<td><strong>58-60</strong></td>
+<td><strong>Working with APIs</strong></td>
+<td>API Authentication, REST APIs, JSON Parsing, Creating and Consuming APIs, Handling Errors in APIs</td>
+</tr>
+<tr>
+<td><strong>61-63</strong></td>
+<td><strong>Advanced Libraries</strong></td>
+<td>NumPy Advanced Techniques, Pandas Advanced Operations, Matplotlib for Data Visualization, Plotly, Seaborn</td>
+</tr>
+<tr>
+<td><strong>64-66</strong></td>
+<td><strong>Machine Learning with Python</strong></td>
+<td>Introduction to Scikit-Learn, Supervised vs Unsupervised Learning, Data Preprocessing, Regression, Classification</td>
+</tr>
+<tr>
+<td><strong>67-69</strong></td>
+<td><strong>Deep Learning with Python</strong></td>
+<td>TensorFlow Basics, Keras, Neural Networks, Training and Evaluating Models, CNN, RNN</td>
+</tr>
+<tr>
+<td><strong>70-72</strong></td>
+<td><strong>Natural Language Processing (NLP)</strong></td>
+<td>Text Preprocessing, NLTK, Spacy, Sentiment Analysis, Text Classification, Named Entity Recognition</td>
+</tr>
+<tr>
+<td><strong>73-75</strong></td>
+<td><strong>Data Science &amp; Big Data with Python</strong></td>
+<td>Data Collection, Preprocessing, Analysis, Big Data Frameworks (PySpark, Dask), Data Visualization Techniques</td>
+</tr>
+<tr>
+<td><strong>76-78</strong></td>
+<td><strong>Cloud Computing with Python</strong></td>
+<td>AWS SDK (Boto3), Google Cloud SDK, Azure SDK, Cloud Storage, Lambda Functions, Cloud Databases</td>
+</tr>
+<tr>
+<td><strong>79-81</strong></td>
+<td><strong>Web Development with Flask</strong></td>
+<td>Introduction to Flask, Building Web Applications, RESTful APIs, Templates, Jinja, Flask-SQLAlchemy</td>
+</tr>
+<tr>
+<td><strong>82-84</strong></td>
+<td><strong>Django Framework</strong></td>
+<td>Introduction to Django, MVC Architecture, Models, Views, Templates, Admin Interface, Django REST Framework</td>
+</tr>
+<tr>
+<td><strong>85-87</strong></td>
+<td><strong>Security and Cryptography</strong></td>
+<td>Hashing, Encryption/Decryption, Working with SSL/TLS, Secure Coding Practices, Cryptography Libraries (PyCryptodome)</td>
+</tr>
+<tr>
+<td><strong>88-89</strong></td>
+<td><strong>Building Python Projects</strong></td>
+<td>Building a Web App, API Integration, Data Analytics Application, Machine Learning Model Deployment</td>
+</tr>
+<tr>
+<td><strong>90</strong></td>
+<td><strong>Final Project &amp; Certification</strong></td>
+<td>Full-stack Python Project, Review Key Concepts, Final Exam &amp; Certification</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p></body></html>
