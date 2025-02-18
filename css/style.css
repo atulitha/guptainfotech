@@ -7355,4 +7355,32 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     color: #E17D00;
     margin-bottom: 0;
+    text-align: center; /* Optional, can adjust as needed */
+    padding: 0; /* Optional, can adjust for spacing */
+}
+
+/* Media Queries for different screen sizes */
+@media (max-width: 1200px) {
+    .h1.active {
+        font-size: 1.6em; /* Slightly smaller font on larger tablets/desktops */
+    }
+}
+
+@media (max-width: 992px) {
+    .h1.active {
+        font-size: 1.4em; /* Smaller font for medium screens like tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .h1.active {
+        font-size: 1.2em; /* Even smaller for smaller tablets */
+    }
+}
+
+@media (max-width: 576px) {
+    .h1.active {
+        font-size: 1em; /* Smaller font on mobile devices */
+        padding: 10px 0; /* Optional padding to prevent the navbar from pushing below */
+    }
 }
