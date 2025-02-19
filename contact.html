@@ -110,209 +110,145 @@
                 <div class="col-12">
                     <h2 class="contact-title">Get in Touch</h2>
                 </div>
-           <div class="col-lg-8">
-    <form action="https://api.web3forms.com/submit" method="POST" id="form" validate="validate">
-        <!-- Hidden API Key Input -->
-        <input type="hidden" name="access_key" value="91379512-ae79-4619-be85-601895eecee8"/>
-        <input type="hidden" name="subject" value="ENQUIRY GUPTA INFO TECH" />
-        <input type="checkbox" name="botcheck" id="" style="display: none;" />
+                <div class="col-lg-8">
+                    <form action="https://api.web3forms.com/submit" method="POST" id="form" validate="validate">
+                        <!-- Hidden API Key Input -->
+                        <input type="hidden" name="access_key" value="91379512-ae79-4619-be85-601895eecee8" />
+                        <input type="hidden" name="subject" value="ENQUIRY GUPTA INFO TECH" />
+                        <input type="checkbox" name="botcheck" id="" style="display: none;" />
 
-        <div class="row">
-            <div class="col-12">
-                <div class="form-group">
-                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
-    placeholder="Enter your message here..." required>Hii test</textarea>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
+                                        placeholder="Enter your message here..." required>Hii test</textarea>
 
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control" name="name" id="name" type="text"
+                                        placeholder="Enter your name" required />
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control" name="email" id="email" type="email"
+                                        placeholder="Enter email address" required />
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <input class="form-control" name="phone" id="phone" type="text"
+                                        placeholder="Enter phone number" required />
+                                </div>
+                            </div>
+
+                            <!-- Radio buttons for Courses and Services (Only one can be selected) -->
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label><input type="radio" name="interest" value="Courses" required> Courses</label>
+                                    <br>
+                                    <label><input type="radio" name="interest" value="Services" required>
+                                        Services</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group mt-3">
+                            <button type="submit" class="button button-contactForm btn_1">Send Message</button>
+                        </div>
+                    </form>
+
+                    <div class="m-7">
+                        <p class="text-base text-center text-gray-400" id="result"></p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-sm-6">
-                <div class="form-group">
-                    <input class="form-control" name="name" id="name" type="text"
-                        placeholder="Enter your name" required />
-                </div>
-            </div>
+                <script>
+                    const form = document.getElementById("form");
+                    const result = document.getElementById("result");
+                    const messageBox = document.getElementById("message");
 
-            <div class="col-sm-6">
-                <div class="form-group">
-                    <input class="form-control" name="email" id="email" type="email"
-                        placeholder="Enter email address" required />
-                </div>
-            </div>
+                    // Handle focus (remove default text when clicked)
+                    messageBox.addEventListener("focus", function () {
+                        if (this.value === "Enter your message here...") {
+                            this.value = "";
+                        }
+                    });
 
-            <div class="col-12">
-                <div class="form-group">
-                    <input class="form-control" name="phone" id="phone" type="text"
-                        placeholder="Enter phone number" required />
-                </div>
-            </div>
+                    // Handle blur (restore default text if empty)
+                    messageBox.addEventListener("blur", function () {
+                        if (this.value.trim() === "") {
+                            this.value = "Enter your message here...";
+                        }
+                    });
 
-            <!-- Radio buttons for Courses and Services (Only one can be selected) -->
-            <div class="col-12">
-                <div class="form-group">
-                    <label><input type="radio" name="interest" value="Courses" required> Courses</label>
-                    <br>
-                    <label><input type="radio" name="interest" value="Services" required> Services</label>
-                </div>
-            </div>
-        </div>
+                    form.addEventListener("submit", function (e) {
+                        // Prevent form submission
+                        e.preventDefault();
 
-        <div class="form-group mt-3">
-            <button type="submit" class="button button-contactForm btn_1">Send Message</button>
-        </div>
-    </form>
+                        // Get form values
+                        const name = document.getElementById("name").value;
+                        const email = document.getElementById("email").value;
+                        const phone = document.getElementById("phone").value;
+                        const message = messageBox.value.trim();
+                        const interest = document.querySelector('input[name="interest"]:checked');
 
-    <div class="m-7">
-        <p class="text-base text-center text-gray-400" id="result"></p>
-    </div>
-</div>
+                        // Check if any required fields are empty
+                        if (!name || !email || !phone || !message || !interest || message === "Enter your message here...") {
+                            result.innerHTML = "Please fill out all fields!";
+                            result.classList.remove("text-gray-500");
+                            result.classList.add("text-red-500");
+                            return;
+                        }
 
-<script>
-    const form = document.getElementById("form");
-    const result = document.getElementById("result");
-    const messageBox = document.getElementById("message");
+                        // Create FormData object if all fields are filled
+                        const formData = new FormData(form);
+                        var object = {};
+                        formData.forEach((value, key) => {
+                            object[key] = value;
+                        });
+                        var json = JSON.stringify(object);
+                        result.innerHTML = "Please wait...";
 
-    // Handle focus (remove default text when clicked)
-    messageBox.addEventListener("focus", function () {
-        if (this.value === "Enter your message here...") {
-            this.value = "";
-        }
-    });
-
-    // Handle blur (restore default text if empty)
-    messageBox.addEventListener("blur", function () {
-        if (this.value.trim() === "") {
-            this.value = "Enter your message here...";
-        }
-    });
-
-    form.addEventListener("submit", function (e) {
-        // Prevent form submission
-        e.preventDefault();
-
-        // Get form values
-        const name = document.getElementById("name").value;
-        const email = document.getElementById("email").value;
-        const phone = document.getElementById("phone").value;
-        const message = messageBox.value.trim();
-        const interest = document.querySelector('input[name="interest"]:checked');
-
-        // Check if any required fields are empty
-        if (!name || !email || !phone || !message || !interest || message === "Enter your message here...") {
-            result.innerHTML = "Please fill out all fields!";
-            result.classList.remove("text-gray-500");
-            result.classList.add("text-red-500");
-            return;
-        }
-
-        // Create FormData object if all fields are filled
-        const formData = new FormData(form);
-        var object = {};
-        formData.forEach((value, key) => {
-            object[key] = value;
-        });
-        var json = JSON.stringify(object);
-        result.innerHTML = "Please wait...";
-
-        fetch("https://api.web3forms.com/submit", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                Accept: "application/json"
-            },
-            body: json
-        })
-        .then(async (response) => {
-            let json = await response.json();
-            if (response.status == 200) {
-                result.innerHTML = json.message;
-                result.classList.remove("text-gray-500");
-                result.classList.add("text-green-500");
-            } else {
-                result.innerHTML = json.message;
-                result.classList.remove("text-gray-500");
-                result.classList.add("text-red-500");
-            }
-        })
-        .catch((error) => {
-            console.log(error);
-            result.innerHTML = "Something went wrong!";
-        })
-        .then(function () {
-            form.reset();
-            // Reset message box manually to ensure default text is restored
-            messageBox.value = "Enter your message here...";
-            setTimeout(() => {
-                result.style.display = "none";
-            }, 5000);
-        });
-    });
-</script>
-
-<script>
-    const form = document.getElementById("form");
-    const result = document.getElementById("result");
-
-    form.addEventListener("submit", function (e) {
-        // Prevent form submission
-        e.preventDefault();
-
-        // Get form values
-        const name = document.getElementById("name").value;
-        const email = document.getElementById("email").value;
-        const phone = document.getElementById("phone").value;
-        const message = document.getElementById("message").value;
-        const interest = document.querySelector('input[name="interest"]:checked');
-
-        // Check if any required fields are empty
-        if (!name || !email || !phone || !message || !interest) {
-            result.innerHTML = "Please fill out all fields!";
-            result.classList.remove("text-gray-500");
-            result.classList.add("text-red-500");
-            return;
-        }
-
-        // Create FormData object if all fields are filled
-        const formData = new FormData(form);
-        var object = {};
-        formData.forEach((value, key) => {
-            object[key] = value;
-        });
-        var json = JSON.stringify(object);
-        result.innerHTML = "Please wait...";
-
-        fetch("https://api.web3forms.com/submit", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                Accept: "application/json"
-            },
-            body: json
-        })
-        .then(async (response) => {
-            let json = await response.json();
-            if (response.status == 200) {
-                result.innerHTML = json.message;
-                result.classList.remove("text-gray-500");
-                result.classList.add("text-green-500");
-            } else {
-                result.innerHTML = json.message;
-                result.classList.remove("text-gray-500");
-                result.classList.add("text-red-500");
-            }
-        })
-        .catch((error) => {
-            console.log(error);
-            result.innerHTML = "Something went wrong!";
-        })
-        .then(function () {
-            form.reset();
-            setTimeout(() => {
-                result.style.display = "none";
-            }, 5000);
-        });
-    });
-</script>
+                        fetch("https://api.web3forms.com/submit", {
+                            method: "POST",
+                            headers: {
+                                "Content-Type": "application/json",
+                                Accept: "application/json"
+                            },
+                            body: json
+                        })
+                            .then(async (response) => {
+                                let json = await response.json();
+                                if (response.status == 200) {
+                                    result.innerHTML = json.message;
+                                    result.classList.remove("text-gray-500");
+                                    result.classList.add("text-green-500");
+                                } else {
+                                    result.innerHTML = json.message;
+                                    result.classList.remove("text-gray-500");
+                                    result.classList.add("text-red-500");
+                                }
+                            })
+                            .catch((error) => {
+                                console.log(error);
+                                result.innerHTML = "Something went wrong!";
+                            })
+                            .then(function () {
+                                form.reset();
+                                // Reset message box manually to ensure default text is restored
+                                messageBox.value = "Enter your message here...";
+                                setTimeout(() => {
+                                    result.style.display = "none";
+                                }, 5000);
+                            });
+                    });
+                </script>
 
 
 
