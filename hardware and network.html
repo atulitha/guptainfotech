@@ -172,7 +172,59 @@
                             </ul>
                         </div>
                         <h4 class="title">Course catlog</h4>
-                       <center> <a href="img/CATLOG/HardwareNetwork.jpg" class="btn_1" target="_blank">view catalog</a></center>
+                        <center>
+                            <a href="img/CATLOG/Adobe pagemaker.pdf" class="btn_1" id="viewCatalog">view catalog</a>
+                        </center>
+                        
+                        <!-- Popup Modal -->
+                        <div id="pdfModal" style="display:none; position:fixed; z-index:1; left:0; top:150px; width:100%; height:calc(100% - 250px); overflow:auto; background-color:rgba(0,0,0,0.5);">
+                            <div class="modal-content" style="position:relative; margin:auto; padding:0; width:90%; max-width:900px; background:white; border-radius:10px; overflow:hidden;">
+                                <div class="modal-body" style="padding:20px;">
+                                    <iframe id="pdfIframe" src="img/CATLOG/Adobe pagemaker.pdf" width="100%" height="500px"></iframe>
+                                    <button class="close" id="closeModal" style="display:block; width:100px; margin:10px auto; padding:10px; color:white; background-color:#007bff; border:none; border-radius:5px; cursor:pointer; text-align:center;">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <script>
+                            document.getElementById('viewCatalog').addEventListener('click', function(event) {
+                                event.preventDefault();
+                                document.getElementById('pdfModal').style.display = 'block';
+                                document.body.style.overflow = 'hidden'; // Prevent background scroll
+                                adjustIframeHeight();
+                            });
+                        
+                            document.getElementById('closeModal').addEventListener('click', function() {
+                                document.getElementById('pdfModal').style.display = 'none';
+                                document.body.style.overflow = 'auto'; // Re-enable background scroll
+                            });
+                        
+                            window.onclick = function(event) {
+                                if (event.target == document.getElementById('pdfModal')) {
+                                    document.getElementById('pdfModal').style.display = 'none';
+                                    document.body.style.overflow = 'auto'; // Re-enable background scroll
+                                }
+                            };
+                        
+                            window.addEventListener('resize', adjustIframeHeight);
+                        
+                            function adjustIframeHeight() {
+                                var iframe = document.getElementById('pdfIframe');
+                                if (window.innerWidth <= 768) { // Mobile view
+                                    iframe.style.height = '400px';
+                                } else { // Desktop view
+                                    iframe.style.height = '600px';
+                                }
+                            }
+                        
+                            // Initial adjustment
+                            adjustIframeHeight();
+                        </script>
+                        
+                        
+                        
+                        
+                        
 
                           
                           
