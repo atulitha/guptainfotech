@@ -173,7 +173,20 @@
                         </div>
                         <h4 class="title">Course catalog</h4>
                         <center>
-                            <a href="img/CATLOG/HardwareNetwork.pdf" class="btn_1" target="_blank" id="viewCatalog" download="false">View Catalog</a>
+                            <a href="img/CATLOG/HardwareNetwork.pdf" class="btn_1" id="viewCatalog" onclick="openCatalog(event)">View Catalog</a>
+
+                            <script>
+                              function openCatalog(event) {
+                                event.preventDefault(); // Prevent default behavior (avoids downloading)
+                                var pdfUrl = event.target.href; // Get the URL of the PDF
+                                var newWindow = window.open(pdfUrl, '_blank'); // Open in a new tab
+                            
+                                if (!newWindow) {
+                                  alert('Please allow pop-ups for this site to view the catalog.');
+                                }
+                              }
+                            </script>
+                            
                             
                         </center>
   
