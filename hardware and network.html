@@ -173,20 +173,7 @@
                         </div>
                         <h4 class="title">Course catalog</h4>
                         <center>
-                            <a href="img/CATLOG/HardwareNetwork.pdf" class="btn_1" id="viewCatalog" onclick="openPDF(event)">View Catalog</a>
-
-                            <script>
-                              function openPDF(event) {
-                                event.preventDefault(); // Prevent the default link behavior
-                                var url = event.target.href;
-                                var newWindow = window.open(url, '_blank');
-                            
-                                // Check if the new window was blocked (especially on mobile)
-                                if (!newWindow) {
-                                  alert('Please allow pop-ups for this site to view the catalog.');
-                                }
-                              }
-                            </script>
+                            <a href="img/CATLOG/HardwareNetwork.pdf" class="btn_1" target="_blank" id="viewCatalog" download="false">View Catalog</a>
                             
                         </center>
   
