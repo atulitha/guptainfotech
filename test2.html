@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Form Submission</title>
+  </head>
+  <body>
+    <h2>Submit Your Information</h2>
+    <form id="myForm">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required><br><br>
+
+      <label for="message">Message:</label>
+      <textarea name="message" id="message"></textarea><br><br>
+
+      <!-- Hidden field to capture the origin -->
+      <input type="hidden" name="origin" id="origin" value="">
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <script>
+      document.getElementById("myForm").addEventListener("submit", function(e) {
+        e.preventDefault(); // Prevent the default form submission
+
+        // Populate the hidden origin field with the current window origin
+        document.getElementById("origin").value = window.location.origin;
+
+        // Create a FormData object from the form
+        var formData = new FormData(this);
+
+        // Replace YOUR_SCRIPT_URL with your actual Google Apps Script web app URL
+        fetch("https://script.google.com/macros/s/AKfycbxv3slPMYFSjNAw5SDycOcHe1GtOtylimgAhBQtk86OBIUgaljC23kQRthXaYxDeuMeHA/exec", {
+          method: "POST",
+          body: formData
+        })
+        .then(response => response.text())
+        .then(data => {
+          // Alert the user with the response message
+          alert(data);
+        })
+        .catch(error => {
+          console.error("Error:", error);
+          alert("An error occurred while submitting the form.");
+        });
+      });
+    </script>
+  </body>
+</html>
