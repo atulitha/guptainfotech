@@ -177,6 +177,12 @@ h6 {
     color: #0c2e60;
     font-family: "Poppins", sans-serif;
 }
+h3.active {
+    color: #ff8c00;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
 
 /* line 76, E:/172 GupthaInfoTech Education/172_GupthaInfoTech_Education_html/sass/_common.scss */
 p {
