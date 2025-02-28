@@ -188,7 +188,7 @@
                 </div>
             </div>
 
-                       <div class="row">
+            <div class="row">
                 <div class="col-sm-6 col-lg-4 mb-4"> <!-- Added mb-4 for margin-bottom -->
                     <div class="single_special_cource">
                         <img src="img/desktop-it-support.jpg" class="special_img" alt="">
@@ -269,13 +269,13 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="text-center p-4">
                 <h2>Courses detailed view</h2>
                 <a href="course-details.html" class="btn_4">check here</a>
             </div>
 
-</section>
+    </section>
 
     <!--::blog_part end::-->
 
@@ -473,7 +473,39 @@
         </div>
     </footer>
     <!-- footer part end-->
-
+    <script>
+        // Disable Right Click
+        document.addEventListener('contextmenu', (e) => e.preventDefault());
+    
+        function ctrlShiftKey(e, keyCode) {
+            return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+        }
+    
+        document.onkeydown = (e) => {
+            if (
+                e.keyCode === 123 || // F12
+                ctrlShiftKey(e, 'I') || // Ctrl + Shift + I
+                ctrlShiftKey(e, 'J') || // Ctrl + Shift + J
+                ctrlShiftKey(e, 'C') || // Ctrl + Shift + C
+                (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0)) // Ctrl + U
+            ) {
+                return false;
+            }
+        };
+    
+        // Detect if DevTools is open
+        (function detectDevTools() {
+            const threshold = 160;
+            setInterval(() => {
+                if (
+                    window.outerWidth - window.innerWidth > threshold ||
+                    window.outerHeight - window.innerHeight > threshold
+                ) {
+                    document.body.innerHTML = "<h1>Access Denied</h1>";
+                }
+            }, 500);
+        })();
+    </script> 
     <!-- jquery plugins here-->
     <!-- jquery -->
     <script src="js/jquery-1.12.1.min.js"></script>
@@ -496,7 +528,6 @@
     <script src="js/waypoints.min.js"></script>
     <!-- custom js -->
     <script src="js/custom.js"></script>
-    <script src="https://dunggramer.github.io/disable-devtool/disable-devtool.min.js" defer></script>
 </body>
 
 </html>
