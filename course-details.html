@@ -367,38 +367,56 @@
 </footer>
 <!-- footer part end-->
 <script>
-    // Disable Right Click
-    document.addEventListener('contextmenu', (e) => e.preventDefault());
-
-    function ctrlShiftKey(e, keyCode) {
-        return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+    // Function to disable right-click
+    function disableRightClick() {
+        document.addEventListener('contextmenu', (e) => e.preventDefault(), false);
     }
 
-    document.onkeydown = (e) => {
-        if (
-            e.keyCode === 123 || // F12
-            ctrlShiftKey(e, 'I') || // Ctrl + Shift + I
-            ctrlShiftKey(e, 'J') || // Ctrl + Shift + J
-            ctrlShiftKey(e, 'C') || // Ctrl + Shift + C
-            (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0)) // Ctrl + U
-        ) {
-            return false;
-        }
-    };
+    // Function to check for Ctrl+Shift+Key combinations
+    function ctrlShiftKey(e, keyCode) {
+        return e.ctrlKey && e.shiftKey && e.key.toLowerCase() === keyCode.toLowerCase();
+    }
 
-    // Detect if DevTools is open
-    (function detectDevTools() {
-        const threshold = 160;
-        setInterval(() => {
+    // Function to disable specific key combinations
+    function disableKeyCombinations() {
+        document.addEventListener('keydown', (e) => {
+            if (
+                e.key === 'F12' || // F12
+                ctrlShiftKey(e, 'I') || // Ctrl + Shift + I
+                ctrlShiftKey(e, 'J') || // Ctrl + Shift + J
+                ctrlShiftKey(e, 'C') || // Ctrl + Shift + C
+                (e.ctrlKey && e.key.toLowerCase() === 'u') // Ctrl + U
+            ) {
+                e.preventDefault();  // Prevent the action
+            }
+        });
+    }
+
+    // Function to detect developer tools
+    function detectDevTools() {
+        const threshold = 160; // Adjust this value if needed
+        let devToolsOpen = false;
+        const checkDevTools = () => {
             if (
                 window.outerWidth - window.innerWidth > threshold ||
                 window.outerHeight - window.innerHeight > threshold
             ) {
-                document.body.innerHTML = "<h1>Access Denied</h1>";
+                // This method to detect DevTools is very basic.
+                // You could enhance this with more sophisticated detection.
+                document.body.innerHTML = "<h1>Access Denied</h1>"; // You might want to replace this with a better method
             }
-        }, 500);
-    })();
-</script> 
+        };
+
+        // Check immediately and then at intervals
+        checkDevTools();
+        setInterval(checkDevTools, 500);
+    }
+
+    // Call the functions to enable the features
+    disableRightClick();
+    disableKeyCombinations();
+    detectDevTools();
+</script>
 <!-- jquery plugins here-->
 <!-- jquery -->
 <script src="js/jquery-1.12.1.min.js"></script>
