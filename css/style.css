@@ -206,6 +206,20 @@ h2 {
 .hidden {
     display: none;
 }
+/* Prevent text from being copied, selected, or cut */
+body {
+    user-select: none; /* Disable text selection */
+    -webkit-user-select: none; /* Disable text selection in Safari */
+    -moz-user-select: none; /* Disable text selection in Firefox */
+    -ms-user-select: none; /* Disable text selection in Internet Explorer/Edge */
+}
+
+body {
+    -webkit-touch-callout: none; /* Disable callout menu on long press in Safari */
+    -webkit-user-drag: none; /* Disable dragging of text in Safari */
+}
+
+/* Removed pointer-events: none; to enable pointer events */
 
 @media (max-width: 576px) {
 
