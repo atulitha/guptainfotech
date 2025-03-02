@@ -26,6 +26,24 @@
     <link rel="stylesheet" href="css/style.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5170496495119554"
      crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Function to check for the presence of the anchor ad
+        function checkAnchorAd() {
+            const anchorAd = document.querySelector('ins.adsbygoogle[data-anchor-status="displayed"]');
+            const navbar = document.getElementById('navbar');
+            if (anchorAd && navbar) {
+                navbar.style.marginTop = anchorAd.offsetHeight + 'px';
+            } else {
+                navbar.style.marginTop = '0';
+            }
+        }
+
+        // Check for the anchor ad initially and on window resize
+        checkAnchorAd();
+        window.addEventListener('resize', checkAnchorAd);
+    });
+</script>
 </head>
 
 <body>
@@ -34,7 +52,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
-                    <nav class="navbar navbar-expand-lg navbar-light">
+                    <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
                         <a class="navbar-brand" href="index.html"> <img src="img/65.65.png" alt="logo"> </a>
                         <h1 class="h1 active">Gupta Info Tech</h1>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
