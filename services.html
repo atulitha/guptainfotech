@@ -99,56 +99,83 @@
       <div class="section-top-border text-center">
          <h3 class="mb-30">Services Provided</h3>
          <div class="row justify-content-center">
-            <center>
-               <div class="desktop-img" style="margin-bottom: 30px;">
-                  <img src="img/services/computer.jpg" alt="Responsive Image" style="width:80%; max-width: 600px; height: auto;">
-               </div>
-            </center>
+            <div class="desktop-img" style="margin-bottom: 30px;">
+               <img src="img/services/computer.jpg" alt="Responsive Image" style="width:80%; max-width: 600px; height: auto;">
+            </div>
          </div>
       </div>
       <div class="row">
          <div class="col-lg-4 col-md-6 mt-sm-30" style="padding: 15px;">
-            <div class="single-defination" style="border: 1px solid #ddd; padding: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-               <h4 class="mb-20" style="color: #333;">Computer Sales</h4>
-               <img src="img/services/computer-sales.jpg" alt="Computer Sales" style="width:100%; height:200px; object-fit: cover; margin-bottom: 15px; border-radius: 5px;">
-               <p style="color: #555;">We offer a wide range of computers, laptops, and accessories to meet your personal and
-                  professional needs. Our expert team can help you find the perfect device.</p>
+            <div class="single-defination"
+               style="border: 1px solid #ddd; padding: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+               <h4 id="laptop-repair-title">All Branded Laptop Repairs</h4>
+               <img src="img/services/computer-sales.jpg" alt="Computer Sales"
+                  style="width:100%; height:200px; object-fit: cover; margin-bottom: 15px; border-radius: 5px; cursor: pointer;"
+                  onclick="showDescription('laptop-repair')">
+               <p id="laptop-repair-desc" style="color: #555; display: none;">Trusted repairs for all laptop brands. We
+                  handle everything from software glitches to hardware failures, ensuring your device is back in top
+                  condition.</p>
             </div>
          </div>
          <div class="col-lg-4 col-md-6 mt-sm-30" style="padding: 15px;">
-            <div class="single-defination" style="border: 1px solid #ddd; padding: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <div class="single-defination"
+               style="border: 1px solid #ddd; padding: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 
-               <h4 class="mb-20" style="color: #333;">Computer Service</h4>
-               <img src="img/services/computer-service.jpg" alt="Computer Service" style="width:100%; height:200px; object-fit: cover; margin-bottom: 15px; border-radius: 5px;">
-               <p style="color: #555;">Our expert technicians provide comprehensive computer repair and maintenance services to
-                  ensure your devices run smoothly. We handle all types of issues.</p>
+               <h4 id="desktop-repair-title">All Branded and Non Branded Desktop Repairs</h4>
+               <img src="img/services/computer-service.jpg" alt="Computer Service"
+                  style="width:100%; height:200px; object-fit: cover; margin-bottom: 15px; border-radius: 5px; cursor: pointer;"
+                  onclick="showDescription('desktop-repair')">
+               <p id="desktop-repair-desc" style="color: #555; display: none;">Expert desktop repair for all brands and
+                  non-branded builds. We troubleshoot and fix any problem, including hardware failures, software issues,
+                  operating system errors, and more.</p>
             </div>
          </div>
          <div class="col-lg-4 col-md-6 mt-sm-30" style="padding: 15px;">
-            <div class="single-defination" style="border: 1px solid #ddd; padding: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <div class="single-defination"
+               style="border: 1px solid #ddd; padding: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 
-               <h4 class="mb-20" style="color: #333;">Networking</h4>
-               <img src="img/services/networking.jpg" alt="Networking" style="width:100%; height:200px; object-fit: cover; margin-bottom: 15px; border-radius: 5px;">
-               <p style="color: #555;">We design, install, and maintain robust network systems for homes and businesses, ensuring
-                  seamless connectivity. Let us build your network infrastructure.</p>
+               <h4 id="network-install-title">All LAN and internal Networks Installation and Troubleshooting</h4>
+               <img src="img/services/networking.jpg" alt="Networking"
+                  style="width:100%; height:200px; object-fit: cover; margin-bottom: 15px; border-radius: 5px; cursor: pointer;"
+                  onclick="showDescription('network-install')">
+               <p id="network-install-desc" style="color: #555; display: none;">Set up your LAN by identifying network
+                  services, preparing devices, cabling, and configuring settings. Troubleshoot by checking connections,
+                  verifying configurations, and testing connectivity. Keep firmware and drivers updated for optimal
+                  performance.</p>
             </div>
          </div>
          <div class="col-lg-4 col-md-6 mt-sm-30" style="padding: 15px;">
-            <div class="single-defination" style="border: 1px solid #ddd; padding: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-
-               <h4 class="mb-20" style="color: #333;">CCTV Installation</h4>
-               <img src="img/services/cctv.jpg" alt="CCTV Installation" style="width:100%; height:200px; object-fit: cover; margin-bottom: 15px; border-radius: 5px;">
-               <p style="color: #555;">We provide professional CCTV installation services to enhance the security of your
-                  premises. Protect your property with our advanced systems.</p>
+            <div class="single-defination"
+               style="border: 1px solid #ddd; padding: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+               <h4 id="cctv-install-title">CCTV Installation and troubleshoot </h4>
+               <img src="img/services/cctv.jpg" alt="CCTV Installation"
+                  style="width:100%; height:200px; object-fit: cover; margin-bottom: 15px; border-radius: 5px; cursor: pointer;"
+                  onclick="showDescription('cctv-install')">
+               <p id="cctv-install-desc" style="color: #555; display: none;">Gain peace of mind with our comprehensive
+                  CCTV installation and troubleshooting services. We offer advanced security solutions and dedicated
+                  support for your peace of mind</p>
             </div>
          </div>
          <div class="col-lg-4 col-md-6 mt-sm-30" style="padding: 15px;">
-            <div class="single-defination" style="border: 1px solid #ddd; padding: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <div class="single-defination"
+               style="border: 1px solid #ddd; padding: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 
-               <h4 class="mb-20" style="color: #333;">Data Recovery</h4>
-               <img src="img/services/data-recovery.jpg" alt="Data Recovery" style="width:100%; height:200px; object-fit: cover; margin-bottom: 15px; border-radius: 5px;">
-               <p style="color: #555;">We specialize in recovering lost data from various storage devices, helping you retrieve
-                  critical information. Don't lose your valuable data.</p>
+               <h4 id="data-recovery-title">Data Recovery</h4>
+               <img src="img/services/data-recovery.jpg" alt="Data Recovery"
+                  style="width:100%; height:200px; object-fit: cover; margin-bottom: 15px; border-radius: 5px; cursor: pointer;"
+                  onclick="showDescription('data-recovery')">
+               <p id="data-recovery-desc" style="color: #555; display: none;">We specialize in recovering lost data from
+                  various storage devices, helping you retrieve critical information. Don't lose your valuable data.</p>
+            </div>
+         </div>
+          <div class="col-lg-4 col-md-6 mt-sm-30" style="padding: 15px;">
+            <div class="single-defination"
+               style="border: 1px solid #ddd; padding: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+               <h4 id="printer-title">Printers Repair and Service</h4>
+               <img src="img/services/printers.jpg" alt="Data Recovery"
+                  style="width:100%; height:200px; object-fit: cover; margin-bottom: 15px; border-radius: 5px; cursor: pointer;"
+                  onclick="showDescription('printers')">
+               <p id="printers-desc" style="color: #555; display: none;">We offer professional printer repair and servicing solutions, ensuring smooth and efficient operation of your devices. Trust our expert technicians for prompt and reliable service for all major printer brands.</p>
             </div>
          </div>
       </div>
@@ -219,6 +246,20 @@
       </div>
    </footer>
    <!-- footer part end-->
+   <script>
+      function showDescription(service) {
+         const descId = `${service}-desc`;
+         const descElement = document.getElementById(descId);
+         if (descElement) {
+            if (descElement.style.display === 'none') {
+               descElement.style.display = 'block';
+            } else {
+               descElement.style.display = 'none';
+            }
+         }
+      }
+   </script>
+
 <script>
     // Function to disable right-click
     function disableRightClick() {
