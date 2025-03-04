@@ -7685,7 +7685,7 @@ h6 {
 
 .nav-item {
     color: #00fd0f;
-    !important;
+    important;
 }
 
 .nav-item.active {
