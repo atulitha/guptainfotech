@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Prepare email
-    $to = "guptainfotech999@gmail.com"; // Your email address
+    $to = "tguptainfotech@gmail.com"; // Your email address
     $subject = "Enquiry to GUPTA INFO TECH";
     $body = "Name: $name\n";
     $body .= "Email: $email\n";
