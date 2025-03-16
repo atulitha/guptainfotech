@@ -100,9 +100,23 @@
          <h3 class="mb-30">Services Provided</h3>
          <div class="row justify-content-center">
             <center>
-               <div class="desktop-img" style="margin-bottom: 30px;">
-                  <img src="img/services/computer.jpg" alt="Responsive Image" style="width:80%; max-width: 600px; height: auto;">
-               </div>
+                  <div class="desktop-img" style="margin-bottom: 30px; animation: pulse 2s infinite;">
+                    <img src="img/services/computer.jpg" alt="Responsive Image" style="width:80%; max-width: 500px; height: auto;">
+                  </div>
+
+                  <style>
+                    @keyframes pulse {
+                      0% {
+                        transform: scale(1);
+                      }
+                      50% {
+                        transform: scale(1.05);
+                      }
+                      100% {
+                        transform: scale(1);
+                      }
+                    }
+                  </style>
             </center>
          </div>
       </div>

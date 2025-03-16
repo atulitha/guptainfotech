@@ -2908,6 +2908,7 @@ ul {
     background-image: url(../img/banner_img.png);
     background-size: 100% 100%;
     right: 9%;
+    animation: moveBanner 3s ease-in-out infinite alternate;
 }
 
 @media (max-width: 576px) {
@@ -2926,6 +2927,7 @@ ul {
         text-align: center;
         margin: 0 auto;
         background-repeat: no-repeat;
+        animation: moveBanner 3s ease-in-out infinite alternate;
     }
 }
 
@@ -2945,6 +2947,7 @@ ul {
         text-align: center;
         margin: 0 auto;
         background-repeat: no-repeat;
+        animation: moveBanner 3s ease-in-out infinite alternate;
     }
 }
 
@@ -2964,6 +2967,7 @@ ul {
         text-align: center;
         margin: 0 auto;
         background-repeat: no-repeat;
+        animation: moveBanner 3s ease-in-out infinite alternate;
     }
 }
 
@@ -2981,6 +2985,16 @@ ul {
         bottom: 0;
         top: auto;
         background-repeat: no-repeat;
+        animation: moveBanner 3s ease-in-out infinite alternate;
+    }
+}
+
+@keyframes moveBanner {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
     }
 }
 
@@ -3476,6 +3490,19 @@ ul {
     position: absolute;
     left: -134px;
     bottom: -69px;
+    animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 @media (max-width: 576px) {
