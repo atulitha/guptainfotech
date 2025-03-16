@@ -211,7 +211,7 @@
 
             <div class="row">
                 <div class="col-sm-6 col-lg-4 mb-4"> <!-- Added mb-4 for margin-bottom -->
-                    <div class="single_special_cource">
+                    <div class="single_special_cource move-up-down">
                         <img src="img/desktop-it-support.jpg" class="special_img" alt="">
                         <div class="special_cource_text">
                             <h1>Information Technology (IT)</h1>
@@ -225,7 +225,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4 mb-4"> <!-- Added mb-4 for margin-bottom -->
-                    <div class="single_special_cource">
+                    <div class="single_special_cource move-up-down">
                         <img src="img/network.jpg" class="special_img" alt="">
                         <div class="special_cource_text">
                             <h1>Information Technology (IT)</h1>
@@ -239,7 +239,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4 mb-4"> <!-- Added mb-4 for margin-bottom -->
-                    <div class="single_special_cource">
+                    <div class="single_special_cource move-up-down">
                         <img src="img/system-admin.jpg" class="special_img" alt="">
                         <div class="special_cource_text">
                             <h1>System Administration</h1>
@@ -254,7 +254,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4 mb-4"> <!-- Added mb-4 for margin-bottom -->
-                    <div class="single_special_cource">
+                    <div class="single_special_cource move-up-down">
                         <img src="img/linux-sys.jpg" class="special_img" alt="">
                         <div class="special_cource_text">
                             <h1>Linux Administration</h1>
@@ -268,7 +268,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4 mb-4"> <!-- Added mb-4 for margin-bottom -->
-                    <div class="single_special_cource">
+                    <div class="single_special_cource move-up-down">
                         <img src="img/cloud.png" class="special_img" alt="">
                         <div class="special_cource_text">
                             <h1>IT Services</h1>
@@ -279,7 +279,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4 mb-4"> <!-- Added mb-4 for margin-bottom -->
-                    <div class="single_special_cource">
+                    <div class="single_special_cource move-up-down">
                         <img src="img/vmware.jpg" class="special_img" alt="">
                         <div class="special_cource_text">
                             <h1>IT Services</h1>
@@ -290,6 +290,21 @@
                     </div>
                 </div>
             </div>
+
+<style>
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.move-up-down {
+    animation: moveUpDown 2s infinite;
+}
+</style>
 
             <div class="text-center p-4">
                 <h2>Courses detailed view</h2>
