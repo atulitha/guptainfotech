@@ -6,7 +6,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>GupthaInfoTech</title>
+    <title>Gupta Info Tech</title>
     <link rel="icon" href="img/favicon.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -167,7 +167,7 @@
             <div class="row align-items-sm-center align-items-lg-stretch">
                 <div class="col-md-7 col-lg-7">
                     <div class="learning_img">
-                        <img src="img/learning_img.png" alt="">
+                        <img src="img/learning_img.png" alt="Learning Image with continuous zoom animation" class="zoom-animation">
                     </div>
                 </div>
                 <div class="col-md-5 col-lg-5">
@@ -211,7 +211,7 @@
 
             <div class="row">
                 <div class="col-sm-6 col-lg-4 mb-4"> <!-- Added mb-4 for margin-bottom -->
-                    <div class="single_special_cource">
+                    <div class="single_special_cource move-up-down">
                         <img src="img/desktop-it-support.jpg" class="special_img" alt="">
                         <div class="special_cource_text">
                             <h1>Information Technology (IT)</h1>
@@ -225,7 +225,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4 mb-4"> <!-- Added mb-4 for margin-bottom -->
-                    <div class="single_special_cource">
+                    <div class="single_special_cource move-up-down">
                         <img src="img/network.jpg" class="special_img" alt="">
                         <div class="special_cource_text">
                             <h1>Information Technology (IT)</h1>
@@ -239,7 +239,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4 mb-4"> <!-- Added mb-4 for margin-bottom -->
-                    <div class="single_special_cource">
+                    <div class="single_special_cource move-up-down">
                         <img src="img/system-admin.jpg" class="special_img" alt="">
                         <div class="special_cource_text">
                             <h1>System Administration</h1>
@@ -254,7 +254,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4 mb-4"> <!-- Added mb-4 for margin-bottom -->
-                    <div class="single_special_cource">
+                    <div class="single_special_cource move-up-down">
                         <img src="img/linux-sys.jpg" class="special_img" alt="">
                         <div class="special_cource_text">
                             <h1>Linux Administration</h1>
@@ -268,7 +268,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4 mb-4"> <!-- Added mb-4 for margin-bottom -->
-                    <div class="single_special_cource">
+                    <div class="single_special_cource move-up-down">
                         <img src="img/cloud.png" class="special_img" alt="">
                         <div class="special_cource_text">
                             <h1>IT Services</h1>
@@ -279,7 +279,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4 mb-4"> <!-- Added mb-4 for margin-bottom -->
-                    <div class="single_special_cource">
+                    <div class="single_special_cource move-up-down">
                         <img src="img/vmware.jpg" class="special_img" alt="">
                         <div class="special_cource_text">
                             <h1>IT Services</h1>
@@ -290,6 +290,21 @@
                     </div>
                 </div>
             </div>
+
+<style>
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.move-up-down {
+    animation: moveUpDown 2s infinite;
+}
+</style>
 
             <div class="text-center p-4">
                 <h2>Courses detailed view</h2>
@@ -494,58 +509,6 @@
         </div>
     </footer>
     <!-- footer part end-->
-    <script>
-    // Function to disable right-click
-    function disableRightClick() {
-        document.addEventListener('contextmenu', (e) => e.preventDefault(), false);
-    }
-
-    // Function to check for Ctrl+Shift+Key combinations
-    function ctrlShiftKey(e, keyCode) {
-        return e.ctrlKey && e.shiftKey && e.key.toLowerCase() === keyCode.toLowerCase();
-    }
-
-    // Function to disable specific key combinations
-    function disableKeyCombinations() {
-        document.addEventListener('keydown', (e) => {
-            if (
-                e.key === 'F12' || // F12
-                ctrlShiftKey(e, 'I') || // Ctrl + Shift + I
-                ctrlShiftKey(e, 'J') || // Ctrl + Shift + J
-                ctrlShiftKey(e, 'C') || // Ctrl + Shift + C
-                (e.ctrlKey && e.key.toLowerCase() === 'u') // Ctrl + U
-            ) {
-                e.preventDefault();  // Prevent the action
-            }
-        });
-    }
-
-    // Function to detect developer tools
-    function detectDevTools() {
-        const threshold = 160; // Adjust this value if needed
-        let devToolsOpen = false;
-        const checkDevTools = () => {
-            if (
-                window.outerWidth - window.innerWidth > threshold ||
-                window.outerHeight - window.innerHeight > threshold
-            ) {
-                // This method to detect DevTools is very basic.
-                // You could enhance this with more sophisticated detection.
-                document.body.innerHTML = "<h1>Access Denied</h1>"; // You might want to replace this with a better method
-            }
-        };
-
-        // Check immediately and then at intervals
-        checkDevTools();
-        setInterval(checkDevTools, 500);
-    }
-
-    // Call the functions to enable the features
-    disableRightClick();
-    disableKeyCombinations();
-    detectDevTools();
-</script>
-
     <!-- jquery plugins here-->
     <!-- jquery -->
     <script src="js/jquery-1.12.1.min.js"></script>
